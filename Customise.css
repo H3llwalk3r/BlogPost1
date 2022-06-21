@@ -10,7 +10,7 @@ html{
     font-size: 10px;
 }
 img{
-    width: 100%;
+    width: 80%;
 }
 body{
     width: 100%;
@@ -112,4 +112,6 @@ body{
     min-width: 100%;
     max-width: 100%;
     transform: translate(0, -8rem);
+    align-items: center;
+    transform: scale(90%);
 }
