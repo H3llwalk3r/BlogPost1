@@ -72,13 +72,13 @@ body{
     font-size: 2.5rem;
     margin: 1.5rem 0 2rem;
     text-transform: uppercase;
-    color: #4facfe;
+    color: blue;
 
 }
 .blog-post__text{
     margin-bottom: 3rem;
     font-size: 1.4rem;
-    color: rgba(0, 0, 0, .07);
+    color: rgb(0, 0, 0);
 
 
 }
@@ -96,7 +96,7 @@ body{
 }
 .blog-post__cta:hover{
     background-image: linear-gradient(90deg, rgba(0,187,240,1) 100%,
-    rgba(91,96,230,1) 0% );
+    rgba(91,96,230,1) 100% );
 
 } 
 @media screen and (max-width:1068px){
@@ -105,8 +105,11 @@ body{
 }
 .blog-post{
     max-width: 80rem;
+    flex-direction: column;
+
 }
 .blog-post__img{
-    min-width: 30rem;
-    max-width: 30rem;
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0, -8rem);
 }
